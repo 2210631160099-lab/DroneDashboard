@@ -214,7 +214,7 @@ with col1:
         "<h1>🚁 SMART SPRAY DRONE — GROUND STATION</h1>",
     )
     render_html(
-        "<div style='color:#7fa08e; font-size:11.5px; margin-top:2px; font-family:Inter;'>"
+        "<div style='color:#7fa08e; font-size:11.5px; margin-top:2px; margin-bottom:18px; font-family:Inter;'>"
         "Agro-Drone Penyemprot Pestisida Berbasis Computer Vision — Deteksi Kerusakan Tanaman Padi</div>",
     )
 
@@ -228,6 +228,8 @@ with col2:
         </div>
         """,
     )
+
+render_html("<div style='height:6px'></div>")
 
 # ================= ROW 1: KAMERA | AREA MONITORING | TELEMETRY =================
 cam_col, map_col, tele_col = st.columns([2, 2, 1.2])
